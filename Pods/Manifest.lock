@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - Closures (0.7)
+  - IQKeyboardManagerSwift (6.5.6)
+  - MaterialActivityIndicator (0.0.6)
+  - ObjectMapper (3.5.3)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper
+  - Closures
+  - IQKeyboardManagerSwift
+  - MaterialActivityIndicator
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Closures
+    - IQKeyboardManagerSwift
+    - MaterialActivityIndicator
+    - ObjectMapper
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  Closures: a83b9892a5b1c4125a9dfcd53e2754db5d7f6d22
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MaterialActivityIndicator: 5061a52fadf7d22533734f2d34806311331bc424
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: b86579bc2b2e4165669f4793e289a0b088c816f4
+
+COCOAPODS: 1.8.4
