@@ -17,19 +17,14 @@ let getDairyData_URL = "https://private-ba0842-gary23.apiary-mock.com/notes"
 class ServiceManager: NSObject {
     
     var lastRequst: DataRequest? = nil
-    
     var device_type: String = "IOS"
     var isAppUpdateShow:Bool = false
-    
     var checkBuyingOrSelling : Int = 0
-    
-    
     var notificationCount : Int = 0
     var chatNotificationCount : Int = 0
     var settingNotificationCount : Int = 0
     var checkActiveUserOrNot:Bool = true
     var checkRefreshMyListing:Bool = false
-    
     
     
     //MARK:- SHAREDMANAGER
@@ -66,7 +61,7 @@ class ServiceManager: NSObject {
                 if response.response?.statusCode == 200 {
                     let message : String = "success"
                     if let validHandler = completionHandler {
-                        validHandler(true, dictResponse, message )
+                        validHandler(true, dictResponse, message)
                     }
                 }
                 else{

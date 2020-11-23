@@ -200,6 +200,7 @@
 				7322D5322564F45D00C9509C /* Main.storyboard */,
 				7322D5352564F46000C9509C /* Assets.xcassets */,
 				7322D5372564F46000C9509C /* LaunchScreen.storyboard */,
+				7322D608256534ED00C9509C /* DiaryApp-Bridging-Header.h */,
 				7322D53A2564F46000C9509C /* Info.plist */,
 			);
 			path = DiaryApp;
@@ -312,7 +313,6 @@
 				7322D5EA2565331800C9509C /* FMDatabaseAdditions.h */,
 				7322D5EB2565331800C9509C /* FMDatabasePool.m */,
 				7322D5EC2565331800C9509C /* FMResultSet.m */,
-				7322D608256534ED00C9509C /* DiaryApp-Bridging-Header.h */,
 			);
 			path = FMDB;
 			sourceTree = "<group>";
@@ -781,7 +781,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIDemo.DiaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rlogical-dev-11/Desktop/DiaryApp/DiaryApp/DataBase/FMDB/DiaryApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -803,7 +803,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUIDemo.DiaryApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rlogical-dev-11/Desktop/DiaryApp/DiaryApp/DataBase/FMDB/DiaryApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
